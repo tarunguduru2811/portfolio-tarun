@@ -68,7 +68,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative bg-gray-900 text-white overflow-hidden min-h-screen py-20 px-6 -mt-50"
+      className="relative bg-gray-900 text-white overflow-hidden min-h-screen py-20 px-6 -mt-10"
     >
       {/* Particles Background */}
       <ParticlesBackground />
