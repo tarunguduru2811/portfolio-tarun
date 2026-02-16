@@ -31,8 +31,8 @@ const projects = [
         description:"Finance Tracker is a modern web application designed to help users manage their personal finances with ease and clarity. It allows users to track income, expenses, and savings while providing insightful visualizations and summaries of financial health over time",
         tech:["Next.js","Node.js","Express.js","PostgreSQL","Prisma","TailwindCSS"],
         github:"https://gitlab.com/frappe6220827/finance-tracker",
-        live:"#deployingSoon",
-        image:"/finora.png"
+        live:"https://finora-one-rouge.vercel.app/",
+        image:"/2026-02-16-144827_screenshot.png"
     }
 ]
 
@@ -73,7 +73,7 @@ function ParticlesBackground() {
 export default function Projects(){
   const [selectedProject,setSelectedProject] = useState<number | null>(null);
   return(
-    <section id="projects" className="relative bg-gray-800 text-white overflow-hidden min-h-screen -mt-50">
+    <section id="projects" className=" bg-gray-800 text-white overflow-hidden min-h-screen ">
       <ParticlesBackground/>
 
       {/* Projects Content */}

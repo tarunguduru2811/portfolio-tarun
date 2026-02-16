@@ -149,7 +149,11 @@ export default function Contact() {
             <Gitlab size={28} className="text-teal-400" />
           </motion.a>
         </div>
+        <p className="text-sm sm:text-base mt-5 font-body">
+          © {new Date().getFullYear()} Tarun Guduru. All rights reserved.
+        </p>
       </div>
+     
     </section>
   );
 }

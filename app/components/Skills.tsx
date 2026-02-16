@@ -12,11 +12,13 @@ const skills = [
     {name:"Next.js",icon:"/nextjs.svg",level:85},
     {name:"Node.js",icon:"/nodejs.svg",level:85},
     {name:"Express.js",icon:"/expressjs.svg",level:80},
-    {name:"MongoDB",icon:"/mongodb.svg",level:80},
+    {name:"MongoDB",icon:"/mongodb.svg",level:85},
     {name:"PostgreSQL",icon:"/postgress.svg",level:80},
     {name:"MySQL",icon:"/mysql.svg",level:85},
     {name:"Javascript",icon:"/javascript.svg",level:90},
-    {name:"TailwindCSS",icon:"/tailwindcss.svg",level:80}
+    {name:"TailwindCSS",icon:"/tailwindcss.svg",level:80},
+    {name:"Docker",icon:"/docker.png",level:80},
+    {name:"Python",icon:"/python.png",level:80}
 ]
 // Particles Component
 function ParticlesBackground() {

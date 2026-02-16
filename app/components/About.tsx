@@ -63,7 +63,7 @@ export default function About() {
 
         {/* Download Resume Button */}
         <motion.a
-            href="#projects" // Replace with your actual resume file
+          href="https://drive.google.com/file/d/1FG7RFQw5PixQGFYQlOtr0jb1MiCnBa_Y/view?usp=sharing" // Replace with your actual resume file
           target="_blank"
           className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full font-medium transition"
           whileHover={{ scale: 1.05 }}
