@@ -70,7 +70,7 @@ export default function Skills() {
     >
       <ParticlesBackground />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6">
+      <div className="relative z-10 font-heading max-w-7xl mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
