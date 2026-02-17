@@ -95,7 +95,7 @@ export default function Projects(){
                   className="bg-gray-900 rounded-xl overflow-hidden shadow-lg cursor-pointer border-2 border-gray-700"
                   initial={{opacity:0,y:20}}
                   whileInView={{opacity:1,y:0}}
-                  whileHover={{scale:1.05,rotate:1}}
+                  whileHover={{scale:1.05,boxShadow: "0 0 20px rgba(20, 184, 166, 0.3)"}}
                   transition={{delay:index*0.1,duration:0.6}}
                   onClick={()=>setSelectedProject(index)}
                   >
