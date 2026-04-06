@@ -135,7 +135,7 @@ export default function Contact() {
             <Github size={28} className="text-teal-400" />
           </motion.a>
           <motion.a
-            href="https://linkedin.com/in/TarunGuduru"
+            href="https://www.linkedin.com/in/tarun-guduru-298629311/"
             target="_blank"
             whileHover={{ scale: 1.2 }}
           >
