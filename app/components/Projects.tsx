@@ -19,12 +19,12 @@ const projects = [
         image:"/pingifychat.png"
     },
     {
-        title:"Weather App",
-        description:"A simple weather application that displays the current weather based on your location or searched city. This app uses IP-based geolocation to detect your approximate location and fetch weather data from the OpenWeatherMap API.",
-        tech:["HTML","CSS","Javascript"],
-        github:"https://github.com/tarunguduru2811/weather-App",
-        live:"https://weather-app-cmqs.onrender.com/",
-        image:"/weatherApp.png"
+        title:"Smart Bookmark",
+        description:"Smart Bookmark App is a full-stack web application that lets users securely save, manage, and organize their bookmarks using Google OAuth authentication. Each user has a private workspace ensuring complete data isolation",
+        tech:["Nextjs","Postgresql","Supabase"],
+        github:"https://github.com/tarunguduru2811/smart-bookmark",
+        live:"https://smart-bookmark-realtime.vercel.app/",
+        image:"/Smart_Bookmark_2.png"
     },
     {
         title:"Finora",
