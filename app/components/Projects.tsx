@@ -11,20 +11,12 @@ import { image } from "framer-motion/client";
 // Projects Data
 const projects = [
     {
-        title:"Pingify Chat",
-        description:"A sleek, real-time chat app built with React, Socket.IO, and Node.js. Join public rooms or have private chats with typing indicators, online user tracking, and browser notifications.",
-        tech:["React","Node.js","Express","MongoDB","SocketIO"],
-        github:"https://github.com/tarunguduru2811/pingify-chat",
-        live:"https://pingifychat.netlify.app/",
-        image:"/pingifychat.png"
-    },
-    {
-        title:"Smart Bookmark",
-        description:"Smart Bookmark App is a full-stack web application that lets users securely save, manage, and organize their bookmarks using Google OAuth authentication. Each user has a private workspace ensuring complete data isolation",
-        tech:["Nextjs","Postgresql","Supabase"],
-        github:"https://github.com/tarunguduru2811/smart-bookmark",
-        live:"https://smart-bookmark-realtime.vercel.app/",
-        image:"/Smart_Bookmark_2.png"
+        title:"TalentArc",
+        description:"TalentArc is a next-generation, full-stack job board platform designed to seamlessly connect top talent with growing companies. Built with a stunning, highly animated UI, it features a robust Applicant Tracking System (ATS) and an intelligent AI resume parser to automate the hiring workflow for recruiters.",
+        tech:["React","Node.js","Express","MongoDB","Postgresql","Prisma","Gemini AI","BullMQ","Redis"],
+        github:"https://github.com/tarunguduru2811/job-portal",
+        live:"https://job-portal-olive-one.vercel.app/",
+        image:"/talent_arc.png"
     },
     {
         title:"Finora",
@@ -33,6 +25,14 @@ const projects = [
         github:"https://gitlab.com/frappe6220827/finance-tracker",
         live:"https://finora-one-rouge.vercel.app/",
         image:"/2026-02-16-144827_screenshot.png"
+    },
+    {
+        title:"Smart Bookmark",
+        description:"Smart Bookmark App is a full-stack web application that lets users securely save, manage, and organize their bookmarks using Google OAuth authentication. Each user has a private workspace ensuring complete data isolation",
+        tech:["Nextjs","Postgresql","Supabase"],
+        github:"https://github.com/tarunguduru2811/smart-bookmark",
+        live:"https://smart-bookmark-realtime.vercel.app/",
+        image:"/Smart_Bookmark_2.png"
     }
 ]
 
